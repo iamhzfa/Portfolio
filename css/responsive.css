@@ -1,0 +1,278 @@
+/* @media (max-width:925px) {
+    .my .right h1{
+        font-size: 3rem;
+    }
+    .card-wraper1, .card-wraper2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-wraper2{
+        grid-gap: 2rem;
+    }
+    .card1{
+        width: 300px;
+        height: 170px;
+    }
+    .overlay{
+        width: 300px;
+        height: 170px;
+    }
+
+} */
+
+@media (max-width:894px) {
+    .main-nav{
+        display: none;
+     }  
+    .mobile-nav{
+        display: block;
+        position: fixed;
+        background-color: whitesmoke;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        z-index: 1;
+        top: 0;
+        transform: translateX(-200%);
+     }  
+     .brand{
+         margin: 0 0 0 35vw;
+     }
+     .open{
+         transform: translateX(0);
+     }
+     nav ul{
+         flex-direction: column;
+         padding: 5px 0;
+         margin-right: 0px;
+     }
+     nav ul li{
+         padding: 5px 0;
+     }
+     .head{
+         padding: 5px 0 70px 0;
+         text-align: center;
+         flex-direction: column;
+         /* padding-bottom: 10rem;
+         padding-top: 5rem; */
+     }
+    .bar{
+        display: block;
+        position: fixed;
+        z-index: 10;
+    }
+ }
+ @media (max-width:930px) {
+     .container{
+         width: 880px;
+     }
+     header{
+         clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 75.5% 94.95%, 0px 100%);
+     }
+ }
+ @media (max-width:890px) {
+     .container{
+         width: 820px;
+     }
+     .my .left{
+         width: 40vw;
+     }
+     .my .left img {
+         width: 150px;
+         margin-top: 7px;
+     }
+     .my .right .content{
+         margin-bottom: 2rem;
+         margin-right: 3rem;
+     }
+     .my .right h6{
+         font-size: 0.9rem;
+         font-weight: 400;
+         margin: 0.3rem 0;
+     }
+     .my .right h1{
+         font-size: 3rem;
+         font-weight: 100;
+         /* line-height: 1; */
+         margin-bottom: 1rem;
+     }
+     .my .right .content-para{
+         font-size: 14px;
+         line-height: 1;
+         margin-bottom: 1rem;
+     }
+     .about{
+         padding: 3rem 0;
+     }
+     .about-img img{
+         width: 170px;
+         float: right;
+         margin-right: 6rem;
+     }
+     .about .about-txt h1{
+         margin-bottom: 1rem;
+         font-size: 1.4rem;
+     }
+     .about .about-txt h3{
+         margin-bottom: 0.9rem;
+         font-size: 0.8rem;
+     }
+     .about .about-txt .about-txt-para{
+         line-height: 1;
+         margin-bottom: 2rem;
+         font-size: 13px;
+         padding-right: 20px;
+     }
+     .quality .container .card-wraper{
+         grid-template-columns: repeat(2, 1fr);
+         grid-row-gap: 2.5rem;
+         grid-column-gap: 0rem;
+         margin: 0 auto;
+         padding-right: 3rem;
+     }
+     .card-wraper .card{
+         width: 250px;
+         margin: auto;
+     }
+     .card-wraper1{
+         width: 90vw;
+         grid-template-columns: repeat(2, 1fr);
+         grid-row-gap: 2.5rem;
+         grid-column-gap: 0rem;
+         margin: 0 0 0 2rem;
+         padding: 0 auto;
+     }
+     .blog{
+         clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 75.63% 95.51%, 0px 100%);
+     }
+     .card-wraper2{
+     width: 90vw;
+     grid-row-gap: 2.5rem;
+     grid-column-gap: 0rem;
+     grid-template-columns: repeat(2, 1fr);
+     margin: 0 auto 0 3rem;
+ }
+ .card-wraper3{
+     grid-gap: 1rem;
+     width: 99vw;
+     padding-left: 1rem;
+ }
+ .card3{
+     width: 200px;
+ }
+ .input-wrap{
+     grid-template-columns: 1fr;
+     width: 97vw;
+ }
+ 
+ .contact input {
+     width: 97vw;
+ }
+ .contact textarea {
+     width: 97vw;
+ }
+ .review{
+     width: 90vw;
+ }
+ }
+ 
+ @media (max-width:360px){
+     .container{
+         width: 330px;
+     }
+     .brand{
+        margin: 0 0 0 15vw;
+    }
+    nav ul{
+        padding: 5px 15px 5px 0;
+    }
+    .my .right{
+        padding-left: 0.5rem;
+    }
+    .my .right h1{
+        font-size: 2.7rem;
+    }
+     .about{
+         display: flex;
+         align-items: center;
+         width: 200px;
+    }
+    .about .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+     .about-img img{
+        margin-left: 4.2rem;
+    }
+    .about-img{
+        margin-bottom: 2rem;
+        margin-left: 6rem;
+    }
+    .about .about-txt{
+        margin-left: 6rem;
+    }
+     .quality .container .card-wraper{
+         grid-template-columns: repeat(1, 1fr);
+         grid-row-gap: 2.5rem;
+         grid-column-gap: 0rem;
+         margin: 0 auto;
+         padding-left: 2rem;
+     }
+     .card-wraper .card{
+         width: 250px;
+         margin: auto;
+     }
+     .card-wraper1{
+         width: 90vw;
+         grid-template-columns: repeat(1, 1fr);
+         grid-row-gap: 2.5rem;
+         grid-column-gap: 0rem;
+         margin: 0 0 0 2rem;
+         padding: 0 auto;
+     }
+     .blog{
+         clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 75.63% 95.51%, 0px 100%);
+     }
+     .card-wraper2{
+     width: 90vw;
+     grid-row-gap: 2.5rem;
+     grid-column-gap: 0rem;
+     grid-template-columns: repeat(1, 1fr);
+     margin: 0 auto 0 2rem;
+     }
+     .card-wraper3{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         grid-gap: 2px;
+         padding: 0 0rem 4rem 0rem;
+         text-align: center;
+         padding-left: 3rem;
+     }
+     /* .card3 .img-c{
+         width: 110px;
+         height: 70px;
+     } */
+     .card3{
+         width: 250px;
+     }
+     .submit{
+         padding-left: 50px;
+     }
+     .txt-f{
+         text-align: center;
+     }
+     
+    .input-wrap{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+        margin: 1rem -9px;
+    }
+    .input-wrap1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 -9px 2rem -9px;
+    }
+
+
+ }
